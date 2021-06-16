@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<view>
+  <swiper easing-function="linear" autoplay="true" indicator-dots="true" indicator-color="#7FFFD4" previous-margin="8px" next-margin="8px" bindchange="bindSwiperChange" interval="5000">
+      <swiper-item wx:for="{{images}}" wx:key="{{index}}" class="swiperItem">
+       <image src="{{item.url}}" style=""></image>
+      </swiper-item>
+    </swiper>
+</view>
+<view class="container">
+    <map></map>
+    <view wx:for="{{array}}">
+      姓名：{{item.name}} 年龄：{{item.age}} 国籍：{{item.country}}
+    </view>
+
+</view>

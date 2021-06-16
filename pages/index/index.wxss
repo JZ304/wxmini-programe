@@ -1,0 +1,50 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #aaa;
+}
+
+.userinfo-avatar {
+  overflow: hidden;
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+swiper {
+  width: 100vw;
+  height: 363rpx;
+}
+
+.swiperItem {
+  display: flex;
+  justify-content: center;
+  width: calc(100vw - 16px) !important;
+}
+.ruleCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: calc(100vw - 40px);
+  height: 363rpx;
+  background: skyblue;
+  background-size: cover;
+  border-radius: 6px;
+}
+
+.hiddenLeft {
+  position: relative;
+  left: -10px;
+}
+
+.hiddenRight {
+  position: relative;
+  right: -10px;
+}

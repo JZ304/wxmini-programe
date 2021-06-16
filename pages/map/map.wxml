@@ -1,0 +1,6 @@
+<map style="width:100%;height:100vh" show-compass="true" show-scale="true" enable-zoom="true" enable-scroll="true" longitude="104.066826" latitude="30.657396" scale="16"  markers="{{markers}}">
+  <cover-view slot="callout">
+    <cover-view marker-id="1"></cover-view>
+    <cover-view marker-id="2"></cover-view>
+  </cover-view>
+</map>
